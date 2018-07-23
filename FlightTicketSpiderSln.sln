@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.src", "1.src", "{8BB2ACF7-F423-4200-81B9-44C9F1F9A9D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.doc", "2.doc", "{9D84955C-711A-46A7-B784-B2EAE0D101B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.lib", "3.lib", "{949D225C-769D-4280-A431-E43E91E3251C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.output", "5.output", "{EA1DDE50-C878-4B96-8438-AE783EFA3159}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.UnitTests", "4.UnitTests", "{4EB36C05-6D16-441D-835A-2223CF89E3C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.license", "6.license", "{75CFF5AD-A9C4-4BE9-896C-167A7CF6A832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "1.src\UnitTests\UnitTests.csproj", "{C0AF66FB-AC6F-45D4-A6C3-F2E8D9FB9863}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0AF66FB-AC6F-45D4-A6C3-F2E8D9FB9863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AF66FB-AC6F-45D4-A6C3-F2E8D9FB9863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AF66FB-AC6F-45D4-A6C3-F2E8D9FB9863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AF66FB-AC6F-45D4-A6C3-F2E8D9FB9863}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0AF66FB-AC6F-45D4-A6C3-F2E8D9FB9863} = {8BB2ACF7-F423-4200-81B9-44C9F1F9A9D9}
+	EndGlobalSection
+EndGlobal
